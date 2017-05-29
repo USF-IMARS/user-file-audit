@@ -1,0 +1,194 @@
+----
+type=CONFIG_CHANGE msg=audit(05/29/2017 17:07:11.374:9723712) : auid=root ses=2817 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 op="add rule" key=mahmoudFileWatch list=exit res=yes
+----
+type=PATH msg=audit(05/29/2017 17:07:23.035:9723723) : item=0 name=/home1/scratch/mahmoudelmezayen/ inode=9514223 dev=00:14 mode=dir,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.035:9723723) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.035:9723723) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c758a0 a1=0x7f60e7bbf2fd a2=0x1fa8920 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.036:9723724) : item=0 name=/home1/scratch/mahmoudelmezayen/ inode=9514223 dev=00:14 mode=dir,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.036:9723724) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.036:9723724) : arch=x86_64 syscall=lgetxattr success=no exit=-95(Operation not supported) a0=0x7ffe45c758a0 a1=0x7f60e759adb7 a2=0x0 a3=0x0 items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.036:9723725) : item=0 name=/home1/scratch/mahmoudelmezayen/ inode=9514223 dev=00:14 mode=dir,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.036:9723725) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.036:9723725) : arch=x86_64 syscall=open success=yes exit=5 a0=0x1faa9a0 a1=O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC a2=0x1 a3=0x7ffe45c74d30 items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.037:9723726) : item=0 name=/home1/scratch/mahmoudelmezayen/OceanCurrents inode=9514220 dev=00:14 mode=dir,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.037:9723726) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.037:9723726) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb2a10 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.037:9723727) : item=0 name=/home1/scratch/mahmoudelmezayen/averageChl.m inode=9514221 dev=00:14 mode=file,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.037:9723727) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.037:9723727) : arch=x86_64 syscall=getxattr success=no exit=-95(Operation not supported) a0=0x7ffe45c74bc0 a1=0x7f60e779ff60 a2=0x7ffe45c74b80 a3=0x14 items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.037:9723728) : item=0 name=/home1/scratch/mahmoudelmezayen/averageChl.m inode=9514221 dev=00:14 mode=file,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.037:9723728) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.037:9723728) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb2a10 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.037:9723729) : item=0 name=/home1/scratch/mahmoudelmezayen/Chl_MedSea_daily inode=9513930 dev=00:14 mode=dir,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.037:9723729) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.037:9723729) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bb0 a1=0x7f60e7bbf2fd a2=0x1fb2a10 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.037:9723730) : item=0 name=/home1/scratch/mahmoudelmezayen/Chl_MedSea_MonthlyMeans inode=9514357 dev=00:14 mode=dir,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.037:9723730) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.037:9723730) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bb0 a1=0x7f60e7bbf2fd a2=0x1fb2a10 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.037:9723731) : item=0 name=/home1/scratch/mahmoudelmezayen/ChlMed.m inode=9513945 dev=00:14 mode=file,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.037:9723731) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.037:9723731) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb2b80 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.038:9723732) : item=0 name=/home1/scratch/mahmoudelmezayen/Medsea-Original inode=7109145 dev=00:14 mode=dir,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.038:9723732) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.038:9723732) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb2b80 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.038:9723733) : item=0 name=/home1/scratch/mahmoudelmezayen/MedSea_SST_MonthlyMeans inode=10143588 dev=00:14 mode=dir,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.038:9723733) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.038:9723733) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bb0 a1=0x7f60e7bbf2fd a2=0x1fb2b80 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.038:9723734) : item=0 name=/home1/scratch/mahmoudelmezayen/SSTMON.m inode=831014 dev=00:14 mode=file,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.038:9723734) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.038:9723734) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb2b80 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.038:9723735) : item=0 name=/home1/scratch/mahmoudelmezayen/Chl_daily inode=7104299 dev=00:14 mode=dir,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.038:9723735) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.038:9723735) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb2cc0 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.039:9723736) : item=0 name=/home1/scratch/mahmoudelmezayen/ChlMeddaily.m inode=9761701 dev=00:14 mode=file,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.039:9723736) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.039:9723736) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb2cc0 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.039:9723737) : item=0 name=/home1/scratch/mahmoudelmezayen/MedSea_SST_total inode=7344963 dev=00:14 mode=dir,770 ouid=alaureano ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.039:9723737) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.039:9723737) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bb0 a1=0x7f60e7bbf2fd a2=0x1fb2cc0 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.039:9723738) : item=0 name=/home1/scratch/mahmoudelmezayen/MED_OC inode=10595080 dev=00:14 mode=dir,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.039:9723738) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.039:9723738) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb2cf0 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.039:9723739) : item=0 name=/home1/scratch/mahmoudelmezayen/Correl_image.m inode=8948955 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.039:9723739) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.039:9723739) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb2e30 a3=0xff items=1 ppid=24927 pid=25195 auid=tylar uid=tylar gid=common euid=tylar suid=tylar fsuid=tylar egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.040:9723740) : item=0 name=/home1/scratch/mahmoudelmezayen/Correl_MatrixVsMatrix.m inode=8944969 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.040:9723740) :  cwd=/home1/tylar
+type=SYSCALL msg=audit(05/29/2017 17:07:23.040:9723740) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bb0 a1=0x7f60e7bbf2fd a2=0x1fb2e30 a3=0xff items=1 ppid=24927 pid=25195 auid=tylar uid=tylar gid=common euid=tylar suid=tylar fsuid=tylar egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.040:9723741) : item=0 name=/home1/scratch/mahmoudelmezayen/extra_data inode=4612818 dev=00:14 mode=dir,770 ouid=root ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.040:9723741) :  cwd=/home1/tylar
+type=SYSCALL msg=audit(05/29/2017 17:07:23.040:9723741) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb2e30 a3=0xff items=1 ppid=24927 pid=25195 auid=tylar uid=tylar gid=common euid=tylar suid=tylar fsuid=tylar egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.040:9723742) : item=0 name=/home1/scratch/mahmoudelmezayen/Manzala_Wv inode=9514226 dev=00:14 mode=dir,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.040:9723742) :  cwd=/home1/tylar
+type=SYSCALL msg=audit(05/29/2017 17:07:23.040:9723742) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb2e50 a3=0xff items=1 ppid=24927 pid=25195 auid=tylar uid=tylar gid=common euid=tylar suid=tylar fsuid=tylar egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.040:9723743) : item=0 name=/home1/scratch/mahmoudelmezayen/Med_Sea.png inode=9514237 dev=00:14 mode=file,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.040:9723743) :  cwd=/home1/tylar
+type=SYSCALL msg=audit(05/29/2017 17:07:23.040:9723743) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb2f90 a3=0xff items=1 ppid=24927 pid=25195 auid=tylar uid=tylar gid=common euid=tylar suid=tylar fsuid=tylar egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.040:9723744) : item=0 name=/home1/scratch/mahmoudelmezayen/Med_Sea2.png inode=9514238 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.040:9723744) :  cwd=/home1/tylar
+type=SYSCALL msg=audit(05/29/2017 17:07:23.040:9723744) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb2f90 a3=0xff items=1 ppid=24927 pid=25195 auid=tylar uid=tylar gid=common euid=tylar suid=tylar fsuid=tylar egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.040:9723745) : item=0 name=/home1/scratch/mahmoudelmezayen/DistCoast_Nile_.m inode=9514316 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.040:9723745) :  cwd=/home1/tylar
+type=SYSCALL msg=audit(05/29/2017 17:07:23.040:9723745) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bb0 a1=0x7f60e7bbf2fd a2=0x1fb2f90 a3=0xff items=1 ppid=24927 pid=25195 auid=testUser uid=testUser gid=common euid=testUser suid=testUser fsuid=testUser egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.041:9723746) : item=0 name=/home1/scratch/mahmoudelmezayen/Chl_alongshoreData_TS_offDist_20_boxSize_11.txt inode=9514334 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.041:9723746) :  cwd=/home1/
+type=SYSCALL msg=audit(05/29/2017 17:07:23.041:9723746) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74ba0 a1=0x7f60e7bbf2fd a2=0x1fb2f90 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.041:9723747) : item=0 name=/home1/scratch/mahmoudelmezayen/Chl_alongshoreData_TS_offDist_20_boxSize_11.xls inode=9514352 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.041:9723747) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.041:9723747) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74ba0 a1=0x7f60e7bbf2fd a2=0x1fb30d0 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.041:9723748) : item=0 name=/home1/scratch/mahmoudelmezayen/test1.grd inode=9514351 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.041:9723748) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.041:9723748) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb30d0 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.041:9723749) : item=0 name=/home1/scratch/mahmoudelmezayen/test2Longitude.grd inode=9514540 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.041:9723749) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.041:9723749) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bb0 a1=0x7f60e7bbf2fd a2=0x1fb30d0 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.041:9723750) : item=0 name=/home1/scratch/mahmoudelmezayen/test3_logChl inode=9514545 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.041:9723750) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.041:9723750) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb3210 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.042:9723751) : item=0 name=/home1/scratch/mahmoudelmezayen/test2_logChl.grd inode=9514557 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.042:9723751) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.042:9723751) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bb0 a1=0x7f60e7bbf2fd a2=0x1fb3210 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.042:9723752) : item=0 name=/home1/scratch/mahmoudelmezayen/Chl_alongshoreData_TS_offDist_withLog_20_boxSize_11.txt inode=9514561 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.042:9723752) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.042:9723752) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74b90 a1=0x7f60e7bbf2fd a2=0x1fb3210 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.042:9723753) : item=0 name=/home1/scratch/mahmoudelmezayen/test4 inode=9514562 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.042:9723753) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.042:9723753) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb3250 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.042:9723754) : item=0 name=/home1/scratch/mahmoudelmezayen/test5.grd inode=9514577 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.042:9723754) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.042:9723754) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb3250 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.043:9723755) : item=0 name=/home1/scratch/mahmoudelmezayen/test6.grd inode=9514600 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.043:9723755) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.043:9723755) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb33c0 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.043:9723756) : item=0 name=/home1/scratch/mahmoudelmezayen/Chl_alongshoreData_TS_offDist_withLog_20_boxSize_11.xls inode=9514609 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.043:9723756) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.043:9723756) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74b90 a1=0x7f60e7bbf2fd a2=0x1fb33c0 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.043:9723757) : item=0 name=/home1/scratch/mahmoudelmezayen/testTS1.grd inode=9514566 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.043:9723757) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.043:9723757) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb33c0 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.043:9723758) : item=0 name=/home1/scratch/mahmoudelmezayen/testTS2 inode=9514707 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.043:9723758) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.043:9723758) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb33e0 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.043:9723759) : item=0 name=/home1/scratch/mahmoudelmezayen/testTS3.grd inode=9514724 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.043:9723759) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.043:9723759) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb3520 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.043:9723760) : item=0 name=/home1/scratch/mahmoudelmezayen/Chl_alongshoreData_TS_offDist_withLog_10_boxSize_9.txt inode=9514726 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.043:9723760) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.043:9723760) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74b90 a1=0x7f60e7bbf2fd a2=0x1fb3520 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.044:9723761) : item=0 name=/home1/scratch/mahmoudelmezayen/Clim1_10_boxSize_9.grd inode=9514745 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.044:9723761) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.044:9723761) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bb0 a1=0x7f60e7bbf2fd a2=0x1fb3520 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.044:9723762) : item=0 name=/home1/scratch/mahmoudelmezayen/Test2_TS_offDis_10_boxSize_9.grd inode=7662091 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.044:9723762) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.044:9723762) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74ba0 a1=0x7f60e7bbf2fd a2=0x1fb3540 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.044:9723763) : item=0 name=/home1/scratch/mahmoudelmezayen/Test2_stNumber_10_boxSize_9.grd inode=9514958 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.044:9723763) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.044:9723763) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bb0 a1=0x7f60e7bbf2fd a2=0x1fb3680 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.044:9723764) : item=0 name=/home1/scratch/mahmoudelmezayen/Test3_stNumber_10_boxSize_9.grd inode=7662085 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.044:9723764) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.044:9723764) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bb0 a1=0x7f60e7bbf2fd a2=0x1fb3680 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.044:9723765) : item=0 name=/home1/scratch/mahmoudelmezayen/Chl_alongshoreData_TS_offDist_withLog_10_boxSize_9.xls inode=7662105 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.044:9723765) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.044:9723765) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74b90 a1=0x7f60e7bbf2fd a2=0x1fb3680 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.044:9723766) : item=0 name=/home1/scratch/mahmoudelmezayen/Test4_stNumber_10_boxSize_9.grd inode=9514957 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.044:9723766) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.044:9723766) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bb0 a1=0x7f60e7bbf2fd a2=0x1fb37c0 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.045:9723767) : item=0 name=/home1/scratch/mahmoudelmezayen/firstTests1.srf inode=9514962 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.045:9723767) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.045:9723767) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb37c0 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.045:9723768) : item=0 name=/home1/scratch/mahmoudelmezayen/FistTests2.srf inode=9514968 dev=00:14 mode=file,770 ouid=digna ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.045:9723768) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.045:9723768) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bc0 a1=0x7f60e7bbf2fd a2=0x1fb37c0 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.045:9723769) : item=0 name=/home1/scratch/mahmoudelmezayen/Chl_test10_TS_offDist_withLog_10_boxSize_9.grd inode=9514328 dev=00:14 mode=file,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.045:9723769) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.045:9723769) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74ba0 a1=0x7f60e7bbf2fd a2=0x1fb37e0 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
+----
+type=PATH msg=audit(05/29/2017 17:07:23.045:9723770) : item=0 name=/home1/scratch/mahmoudelmezayen/A2002321_NIR_1km_Daily.dim inode=9846837 dev=00:14 mode=file,770 ouid=mahmoudelmezayen ogid=medoc rdev=00:00 obj=system_u:object_r:nfs_t:s0 nametype=NORMAL
+type=CWD msg=audit(05/29/2017 17:07:23.045:9723770) :  cwd=/home1/7yl4r
+type=SYSCALL msg=audit(05/29/2017 17:07:23.045:9723770) : arch=x86_64 syscall=lgetxattr success=yes exit=27 a0=0x7ffe45c74bb0 a1=0x7f60e7bbf2fd a2=0x1fb3920 a3=0xff items=1 ppid=24927 pid=25195 auid=7yl4r uid=7yl4r gid=common euid=7yl4r suid=7yl4r fsuid=7yl4r egid=common sgid=common fsgid=common tty=pts0 ses=2816 comm=ls exe=/bin/ls subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=mahmoudFileWatch
